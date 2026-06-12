@@ -1,0 +1,24 @@
+<dependencies>
+	<!-- ... другие зависимости ... -->
+
+	<!-- Spring Boot Test -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+
+	<!-- Mockito (обычно идет в spring-boot-starter-test) -->
+	<dependency>
+		<groupId>org.mockito</groupId>
+		<artifactId>mockito-core</artifactId>
+		<scope>test</scope>
+	</dependency>
+
+	<!-- Для тестов с Security -->
+	<dependency>
+		<groupId>org.springframework.security</groupId>
+		<artifactId>spring-security-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+</dependencies>
